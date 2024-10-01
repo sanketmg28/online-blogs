@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blog Website</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section class="blog-posts">
+			<h1>Blog Posts</h1>
+			<ul id="blog-post-list">
+				<!-- blog posts will be generated here -->
+			</ul>
+		</section>
+		<section class="new-post">
+			<h1>New Post</h1>
+			<form id="new-post-form">
+				<label for="title">Title:</label>
+				<input type="text" id="title" name="title"><br><br>
+				<label for="content">Content:</label>
+				<textarea id="content" name="content"></textarea><br><br>
+				<button id="submit-post">Submit Post</button>
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 Blog Website</p>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+</html>
